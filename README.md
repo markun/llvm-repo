@@ -17,7 +17,7 @@ For the initial checkout of the source tree, perform the following steps:
 
 # Update source tree
 
-To update the source tree, enter the the directory and do:
+To update the source tree, enter the llvm directory and do:
 
 ```
 # repo sync
