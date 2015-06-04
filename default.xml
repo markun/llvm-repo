@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="llvm"
+            fetch="http://llvm.org/git/"
+    />
+
+    <default revision="refs/heads/master"
+               remote="llvm"
+               sync-c="true"
+               sync-j="4"
+    />
+
+    <project path="." name="llvm" />
+    <project path="tools/clang" name="clang" />
+    <project path="tools/clang/tools/extra" name="clang-tools-extra" />
+    <project path="tools/lld" name="lld" />
+    <project path="tools/lldb" name="lldb" />
+    <project path="tools/polly" name="polly" />
+    <project path="projects/compiler-rt" name="compiler-rt" />
+    <project path="projects/libcxx" name="libcxx" />
+    <project path="projects/libcxxabi" name="libcxxabi" />
+    <project path="projects/libunwind" name="libunwind" />
+</manifest>
