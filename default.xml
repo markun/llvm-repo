@@ -21,4 +21,5 @@
     <project path="projects/libcxx" name="libcxx" />
     <project path="projects/libcxxabi" name="libcxxabi" />
     <project path="projects/libunwind" name="libunwind" />
+    <project path="projects/openmp" name="openmp" />
 </manifest>
